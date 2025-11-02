@@ -1,2 +1,8 @@
 # twowlaunchscript
-get rid of the white launcher screen with this script.
+
+This script fixes the white screen/EGL error on Wayland by preloading the system's native Wayland libraries.
+
+1. cd into the same directory where turtlewowlauncher lives
+2. git clone this repo
+3. chmod +x launch-turtlewow.bash or ./launch-turtlewow.fish depends which shell you are using)
+4. ./launch-turtlewow.bash or ./launch-turtlewow.fish (depends which shell you are using)
